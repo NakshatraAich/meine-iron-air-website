@@ -11,7 +11,7 @@ const Why = () => {
       {/* Left Text Section */}
       <div className="relative w-full lg:w-1/2 flex flex-col justify-center text-left xl:max-w-[28rem]">
         <h2 className="text-4xl font-bold mb-4 text-gray-900">
-          Our <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">Technology</span>
+          Why <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">Iron Air?</span>
         </h2>
         <p className="text-lg text-gray-700 mb-6 font-semibold leading-5">
           Energy storage, not generation, is the real barrier limiting the clean energy transition today.
