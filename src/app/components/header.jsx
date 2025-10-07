@@ -21,7 +21,7 @@ const Nav = () => {
           alt="Logo"
           width={210}
           height={100}
-          className='w-56 h-auto'
+          className='w-42 sm:w-56 h-auto'
         />
       </div>
 
