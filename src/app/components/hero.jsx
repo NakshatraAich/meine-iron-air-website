@@ -53,7 +53,7 @@ const Hero = () => {
             className="absolute z-2 text-left px-8 lg:px-20 left-0 flex flex-col items-start justify-center text-white
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
-            <h1 className="text-4xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
+            <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
               Low-Cost, Multi-Day Energy Storage with Breakthrough{' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
                 Iron Air Batteries
@@ -74,7 +74,7 @@ const Hero = () => {
             className="absolute z-2 text-left px-8 lg:px-20 left-0 flex flex-col items-start justify-center text-white
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
-            <h1 className="text-4xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
+            <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
               Enabling a future of{' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
                 Limitless Renewable Future
@@ -95,7 +95,7 @@ const Hero = () => {
             className="absolute z-2 text-left px-8 lg:px-20 left-0 flex flex-col items-start justify-center text-white
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
-            <h1 className="text-4xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
+            <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
               Long Duration Energy Storage for{' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
                 Decentralized Grid
