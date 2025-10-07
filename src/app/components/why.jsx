@@ -14,10 +14,10 @@ const Why = () => {
           Our <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">Technology</span>
         </h2>
         <p className="text-lg text-gray-700 mb-6 font-semibold leading-5">
-          Our reversible rust battery transforms a natural iron-air reaction into a powerful, repeatable energy cycle.
+          Energy storage, not generation, is the real barrier limiting the clean energy transition today.
         </p>
         <p className="text-lg text-gray-700 mb-6 leading-5">
-          At the heart of this breakthrough is a simple yet revolutionary process: during discharge, iron reacts with oxygen to form rust, releasing energy, and our proprietary charging method reverses this reaction, converting rust back into pure iron. This clean cycle can be repeated thousands of times, enabling scalable, affordable, and sustainable energy storage.
+           Affordable, scalable, and sustainable Long Duration Energy Storage (LDES) is essential for a reliable renewable grid. Iron-air batteries are the most practical LDES solution: using abundant iron, they provide multi-day storage at the lowest cost per kWh, reduce renewable curtailment, and make decarbonizing the grid achievable. By bridging the gap between intermittent supply and continuous demand, this technology enables a resilient, fossil-free energy future.
         </p>
       </div>
 
