@@ -13,7 +13,7 @@ const Tech = () => {
   }, [])
 
   return (
-    <section id='tech' className="font-sans w-full flex flex-col lg:flex-row-reverse items-start justify-center px-8 lg:px-20 py-20 gap-12 overflow-hidden">
+    <section id='tech' className="font-sans w-full flex flex-col lg:flex-row-reverse items-start justify-center px-8 lg:px-20 py-10 sm:py-20 gap-12 overflow-hidden">
 
       <div className="relative w-full lg:w-1/2 flex flex-col justify-center text-left xl:max-w-[28rem]">
           <h2 className="text-4xl md:text-4xl font-bold mb-4 text-gray-900 z-2">

@@ -103,7 +103,7 @@ export function News() {
     ];
 
     return (
-        <section id='news' className="font-sans px-8 lg:px-20 py-20 bg-[#FFFBD9]">
+        <section id='news' className="font-sans px-8 lg:px-20 py-10 sm:py-20 bg-[#FFFBD9]">
         <div className="container-padding">
             {/* Heading */}
             <div

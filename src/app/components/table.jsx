@@ -11,7 +11,7 @@ const IconNone = () => <div className="w-8 h-8 mx-auto" />
 
 export default function Table() {
   return (
-    <section className="font-sans section-spacing container-padding pt-20 pb-20 lg:px-20 px-0 mx-8">
+    <section className="font-sans section-spacing container-padding pt-10 sm:pt-20 pb-20 lg:px-20 px-0 mx-8">
       <motion.div className="w-full flex flex-col items-center text-center">
         {/* Heading */}
         <div className="mb-12 flex flex-col gap-2 items-center">

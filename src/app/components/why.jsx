@@ -6,7 +6,7 @@ import { DollarSign, Zap, Expand, HardHat } from 'lucide-react'
 
 const Why = () => {
   return (
-    <section className="relative font-sans w-full flex flex-col lg:flex-row items-start justify-center px-8 lg:px-20 py-20 gap-12 overflow-hidden">
+    <section className="relative font-sans w-full flex flex-col lg:flex-row items-start justify-center px-8 lg:px-20 py-10 sm:py-20 gap-12 overflow-hidden">
       
       {/* Left Text Section */}
       <div className="relative w-full lg:w-1/2 flex flex-col justify-center text-left xl:max-w-[28rem]">
