@@ -41,7 +41,8 @@ const Hero = () => {
           <Image
             src="/images/hero1.png"
             alt="hero1"
-            fill
+            width={1920}
+            height={1080}
             className="object-cover"
             priority
           />
@@ -62,7 +63,8 @@ const Hero = () => {
           <Image
             src="/images/hero3.jpg"
             alt="hero3"
-            fill
+            width={1920}
+            height={1080}
             className="z-0 object-cover"
           />
           <div className='absolute inset-0 z-1 bg-gradient-to-br from-transparent to-[#202020]/90'></div>
@@ -82,7 +84,8 @@ const Hero = () => {
           <Image
             src="/images/hero2.jpg"
             alt="hero2"
-            fill
+            width={1920}
+            height={1080}
             className="object-cover"
           />
           <div className='absolute inset-0 z-1 bg-[#202020]/30'></div>
