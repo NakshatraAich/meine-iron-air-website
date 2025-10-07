@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState, useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import Image from 'next/image'
 
 const Hero = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -44,14 +43,10 @@ const Hero = () => {
       <div className="flex h-full">
         {/* Slide 1 */}
         <div className="relative min-w-full h-full flex items-center justify-center">
-          <Image
+          <img
             src="/images/hero1.png"
             alt="hero1"
-            fill
-            className="object-cover"
-            priority
-            quality={100}
-            sizes="100vw"
+            className="absolute top-0 left-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 z-1 bg-[#202020]/10"></div>
           <div
@@ -69,14 +64,10 @@ const Hero = () => {
 
         {/* Slide 2 */}
         <div className="relative min-w-full h-full flex items-center justify-center">
-          <Image
+          <img
             src="/images/hero3.jpg"
             alt="hero3"
-            fill
-            className="z-0 object-cover"
-            priority
-            quality={100}
-            sizes="100vw"
+            className="absolute top-0 left-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 z-1 bg-gradient-to-br from-transparent to-[#202020]/90"></div>
           <div
@@ -94,14 +85,10 @@ const Hero = () => {
 
         {/* Slide 3 */}
         <div className="relative min-w-full h-full flex items-center justify-center">
-          <Image
+          <img
             src="/images/hero2.jpg"
             alt="hero2"
-            fill
-            className="object-cover"
-            priority
-            quality={100}
-            sizes="100vw"
+            className="absolute top-0 left-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 z-1 bg-[#202020]/30"></div>
           <div
