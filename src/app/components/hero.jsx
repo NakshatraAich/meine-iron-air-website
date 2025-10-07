@@ -37,7 +37,7 @@ const Hero = () => {
     <section
       id="hero"
       ref={emblaRef}
-      className="font-sans relative w-full h-[90vh] overflow-hidden"
+      className="font-sans relative w-full h-[80vh] sm:h-[90vh] overflow-hidden"
     >
       <div className="flex h-screen">
         {/* Slide 1 */}
