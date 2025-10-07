@@ -15,8 +15,8 @@ export default function Table() {
       <motion.div className="w-full flex flex-col items-center text-center">
         {/* Heading */}
         <div className="mb-12 flex flex-col gap-2 items-center">
-          <h2 className="text-3xl text-center text-[#202020] md:text-4xl font-bold max-w-md">
-            Technology Comparison
+          <h2 className="text-4xl text-center text-[#202020] md:text-4xl font-bold max-w-md">
+            <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">Technology</span> Comparison
           </h2>
           <p className="max-w-sm text-center">Comparing the current LDES solutions with our Iron Air Batteries </p>
         </div>
