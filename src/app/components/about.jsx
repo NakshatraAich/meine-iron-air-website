@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Why = () => {
   return (
-    <section id='about' className="relative font-sans w-full flex flex-col lg:flex-row items-start justify-center px-8 lg:px-20 pt-10 sm:py-20 gap-12 overflow-hidden">
+    <section id='about' className="relative font-sans w-full flex flex-col lg:flex-row items-start justify-center px-8 lg:px-20 py-10 sm:py-20 gap-12 overflow-hidden">
         <div className="relative w-full lg:w-1/2 flex flex-col justify-center text-left lg:max-w-md">
             <h2 className="text-4xl font-bold mb-4 text-gray-900">
             <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">About </span>Us
