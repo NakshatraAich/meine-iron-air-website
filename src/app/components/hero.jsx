@@ -12,6 +12,7 @@ const Hero = () => {
   })
   const [selectedIndex, setSelectedIndex] = useState(0)
 
+  // Auto-scroll every 5 seconds
   useEffect(() => {
     if (!emblaApi) return
     const interval = setInterval(() => {
@@ -20,6 +21,7 @@ const Hero = () => {
     return () => clearInterval(interval)
   }, [emblaApi])
 
+  // Update selected index on carousel select
   const onSelect = useCallback(() => {
     if (!emblaApi) return
     setSelectedIndex(emblaApi.selectedScrollSnap())
@@ -37,9 +39,9 @@ const Hero = () => {
     <section
       id="hero"
       ref={emblaRef}
-      className="font-sans relative w-full h-[80vh] sm:h-[90vh] overflow-hidden"
+      className="font-sans relative w-full h-[90vh] sm:h-[90vh] overflow-hidden"
     >
-      <div className="flex h-screen">
+      <div className="flex h-full">
         {/* Slide 1 */}
         <div className="relative min-w-full h-full flex items-center justify-center">
           <Image
@@ -47,8 +49,9 @@ const Hero = () => {
             alt="hero1"
             fill
             className="object-cover"
-            sizes="(max-width: 640px) 100vw, 100vw"
             priority
+            quality={100}
+            sizes="100vw"
           />
           <div className="absolute inset-0 z-1 bg-[#202020]/10"></div>
           <div
@@ -71,7 +74,9 @@ const Hero = () => {
             alt="hero3"
             fill
             className="z-0 object-cover"
-            sizes="(max-width: 640px) 100vw, 100vw"
+            priority
+            quality={100}
+            sizes="100vw"
           />
           <div className="absolute inset-0 z-1 bg-gradient-to-br from-transparent to-[#202020]/90"></div>
           <div
@@ -94,7 +99,9 @@ const Hero = () => {
             alt="hero2"
             fill
             className="object-cover"
-            sizes="(max-width: 640px) 100vw, 100vw"
+            priority
+            quality={100}
+            sizes="100vw"
           />
           <div className="absolute inset-0 z-1 bg-[#202020]/30"></div>
           <div
@@ -113,24 +120,15 @@ const Hero = () => {
 
       {/* Progress Dots */}
       <div className="absolute pl-8 lg:pl-20 top-30 left-0 flex gap-3 z-20">
-        <button
-          onClick={() => scrollTo(0)}
-          className={`w-4 h-4 rounded-full transition-all duration-300 border-2 border-[#B5D411] ${
-            selectedIndex === 0 ? 'bg-[#B4D511]' : 'bg-transparent'
-          }`}
-        />
-        <button
-          onClick={() => scrollTo(1)}
-          className={`w-4 h-4 rounded-full transition-all duration-300 border-2 border-[#B5D411] ${
-            selectedIndex === 1 ? 'bg-[#B4D511]' : 'bg-transparent'
-          }`}
-        />
-        <button
-          onClick={() => scrollTo(2)}
-          className={`w-4 h-4 rounded-full transition-all duration-300 border-2 border-[#B5D411] ${
-            selectedIndex === 2 ? 'bg-[#B4D511]' : 'bg-transparent'
-          }`}
-        />
+        {[0, 1, 2].map((i) => (
+          <button
+            key={i}
+            onClick={() => scrollTo(i)}
+            className={`w-4 h-4 rounded-full transition-all duration-300 border-2 border-[#B5D411] ${
+              selectedIndex === i ? 'bg-[#B4D511]' : 'bg-transparent'
+            }`}
+          />
+        ))}
       </div>
     </section>
   )
