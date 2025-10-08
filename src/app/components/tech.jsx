@@ -23,7 +23,7 @@ const Tech = () => {
           Our reversible rust battery transforms a natural iron-air reaction into a powerful, repeatable energy cycle.
           </p>
           <p className="text-lg text-gray-700 mb-6 leading-5 z-2">
-          At the heart of this breakthrough is a simple yet revolutionary process: during discharge, iron reacts with oxygen to form rust, releasing energy, and our proprietary charging method reverses this reaction, converting rust back into pure iron. This clean cycle can be repeated thousands of times, enabling scalable, affordable, and sustainable energy storage.
+            At the heart of this breakthrough is a simple yet revolutionary process. During discharge, iron reacts with oxygen to form rust, releasing energy. Our proprietary charging method reverses this reaction, converting rust back into pure iron. This clean cycle can be repeated thousands of times, enabling scalable, affordable, and sustainable energy storage.          
           </p>
         
           <div className="absolute left-80 -top-10 w-80 h-80 bg-[#FFF8BD] rounded-full  pointer-events-none"></div>

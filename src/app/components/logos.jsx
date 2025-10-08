@@ -2,22 +2,21 @@ import React from 'react'
 
 const Logos = () => {
   const logos = [
-    { src: '/logos/aic.png', alt: 'AIC' },
-    { src: '/logos/anna.svg', alt: 'Anna University' },
     { src: '/logos/antler.svg', alt: 'Antler' },
-    { src: '/logos/arai.png', alt: 'ARAI' },
-    { src: '/logos/bits.svg', alt: 'BITS' },
-    { src: '/logos/climate.png', alt: 'Climate' },
-    { src: '/logos/dst.svg', alt: 'DST' },
-    { src: '/logos/grad.png', alt: 'Grad' },
-    { src: '/logos/greenr.png', alt: 'Greenr' },
-    { src: '/logos/inno.png', alt: 'Innosphere' },
-    { src: '/logos/irena.png', alt: 'IRENA' },
-    { src: '/logos/nidhi.png', alt: 'Nidhi Prayas' },
     { src: '/logos/rebalance.png', alt: 'Rebalance' },
-    { src: '/logos/sptbi.png', alt: 'SPTBI' },
-    { src: '/logos/technoserve.png', alt: 'Technoserve' },
+    { src: '/logos/grad.png', alt: 'Grad' },
+    { src: '/logos/inno.png', alt: 'Innosphere' },
     { src: '/logos/vc.png', alt: 'Venture Catalysts' },
+    { src: '/logos/anna.svg', alt: 'Anna University' },
+    { src: '/logos/bits.svg', alt: 'BITS' },
+    { src: '/logos/sptbi.png', alt: 'SPTBI' },
+    { src: '/logos/dst.svg', alt: 'DST' },
+    { src: '/logos/aic.png', alt: 'AIC' },
+    { src: '/logos/arai.png', alt: 'ARAI' },
+    { src: '/logos/irena.png', alt: 'IRENA' },
+    { src: '/logos/technoserve.png', alt: 'Technoserve' },
+    { src: '/logos/climate.png', alt: 'Climate' },
+    { src: '/logos/nidhi.png', alt: 'Nidhi Prayas' },
   ]
 
   return (

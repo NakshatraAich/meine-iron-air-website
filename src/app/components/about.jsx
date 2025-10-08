@@ -13,7 +13,7 @@ const Why = () => {
             <p className="text-lg text-gray-700 mb-6 font-semibold leading-5">
             We are building energy infrastructure of tomorrow - innovative, sustainable, and resilient.</p>
             <p className="text-lg text-gray-700 mb-6 leading-5">
-            At Meine Electric, our passionate team of engineers, creators, and visionaries is united by a shared purpose: to transform the way energy is generated, stored, and delivered. <br/>
+            At Meine Electric, our passionate team of engineers, scientists, and visionaries is united by a shared purpose: to transform the way energy is generated, stored, and delivered. <br/>
             Together, we are shaping a future where clean power is reliable, accessible, and empowers communities and industries to thrive.
             </p>
             <div className='mt-12 font-semibold text-[#202020]'>
@@ -23,10 +23,10 @@ const Why = () => {
         </div>
 
         <div className="relative w-full lg:w-1/2 flex flex-col justify-center gap-12">
-            <div className="grid grid-rows-1 lg:grid-cols-3 lg:grid-rows-2 gap-4 w-full rounded-2xl overflow-hidden">
+            <div className="grid grid-rows-1 lg:grid-cols-5 lg:grid-rows-2 gap-4 w-full rounded-2xl overflow-hidden">
                 
                 {/* Large image (top-left, 2 cols) */}
-                <div className="relative lg:col-span-2 aspect-[4/3] rounded-lg overflow-hidden">
+                <div className="relative lg:col-span-3 aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
                     src="/images/electrochem.jpg"
                     alt="Iron-air cycle 1"
@@ -38,7 +38,7 @@ const Why = () => {
                 </div>
 
                 {/* Small image (top-right, 1 col) */}
-                <div className="relative lg:col-span-1 aspect-[4/3] lg:aspect-auto rounded-lg overflow-hidden">
+                <div className="relative lg:col-span-2 aspect-[4/3] lg:aspect-auto rounded-lg overflow-hidden">
                 <Image
                     src="/images/cell.jpg"
                     alt="Iron-air cycle 2"
@@ -49,7 +49,7 @@ const Why = () => {
                 </div>
 
                 {/* Small image (bottom-left, 1 col) */}
-                <div className="relative lg:col-span-1 aspect-[4/3] lg:aspect-auto rounded-lg overflow-hidden">
+                <div className="relative lg:col-span-2 aspect-[4/3] lg:aspect-auto rounded-lg overflow-hidden">
                 <Image
                     src="/images/product.jpg"
                     alt="Iron-air cycle 3"
@@ -60,7 +60,7 @@ const Why = () => {
                 </div>
 
                 {/* Large image (bottom-right, 2 cols) */}
-                <div className="relative lg:col-span-2 aspect-[4/3] rounded-lg overflow-hidden">
+                <div className="relative lg:col-span-3 aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
                     src="/images/team.webp"
                     alt="Iron-air cycle 4"
