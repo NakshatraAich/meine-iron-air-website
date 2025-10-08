@@ -18,7 +18,7 @@ export default function Table() {
           <h2 className="text-4xl text-center text-[#202020] md:text-4xl font-bold max-w-md">
             <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">Technology</span> Comparison
           </h2>
-          <p className="max-w-sm text-center">Comparing the current LDES solutions with our Iron Air Batteries </p>
+          <p className="max-w-sm text-center">Comparing the current LDES solutions with our <br/>Iron Air Batteries </p>
         </div>
 
         {/* Table */}
