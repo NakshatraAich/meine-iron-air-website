@@ -44,9 +44,9 @@ const Why = () => {
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 1
               </div>
-              <DollarSign className="w-10 h-10 text-white" />
+              <DollarSign className="w-15 h-15 xs:w-10 xs:h-10 text-white" />
             </div>
-            <p className="text-sm text-green-900 font-semibold leading-snug">
+            <p className="text-xl xs:text-sm text-green-900 font-semibold leading-snug">
               Cost-effective<br />energy storage
             </p>
           </div>
@@ -57,9 +57,9 @@ const Why = () => {
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 2
               </div>
-              <Zap className="w-10 h-10 text-white" />
+              <Zap className="w-15 h-15 xs:w-10 xs:h-10 text-white" />
             </div>
-            <p className="text-sm text-green-900 font-semibold leading-snug">
+            <p className="text-xl xs:text-sm text-green-900 font-semibold leading-snug">
               Stores electricity for seasonal use
             </p>
           </div>
@@ -70,9 +70,9 @@ const Why = () => {
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 3
               </div>
-              <Expand className="w-10 h-10 text-white" />
+              <Expand className="w-15 h-15 xs:w-10 xs:h-10 text-white" />
             </div>
-            <p className="text-sm text-green-900 font-semibold leading-snug">
+            <p className="text-xl xs:text-sm text-green-900 font-semibold leading-snug">
               Scalable without<br />harm
             </p>
           </div>
@@ -83,9 +83,9 @@ const Why = () => {
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 4
               </div>
-              <HardHat className="w-10 h-10 text-white" />
+              <HardHat className="w-15 h-15 xs:w-10 xs:h-10 text-white" />
             </div>
-            <p className="text-sm text-green-900 font-semibold leading-snug">
+            <p className="text-xl xs:text-sm text-green-900 font-semibold leading-snug">
               Safe to use<br />and deploy
             </p>
           </div>
