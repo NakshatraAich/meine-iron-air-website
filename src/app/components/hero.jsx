@@ -40,7 +40,7 @@ const Hero = () => {
       ref={emblaRef}
       className="font-sans relative w-full h-[90vh] sm:h-[90vh] overflow-hidden"
     >
-      <div className="flex h-full">
+      <div className="flex h-full capitalize">
         {/* Slide 1 */}
         <div className="relative min-w-full h-full flex items-center justify-center">
           <img
@@ -96,7 +96,7 @@ const Hero = () => {
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
             <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Enabling a future of{' '} <br/>
+              Enabling A Future Of{' '} <br/>
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
                 Limitless Renewable Energy
               </span>
