@@ -39,7 +39,7 @@ const Why = () => {
         <div className="z-2 grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-4 gap-6 w-full auto-rows-fr">
           
           {/* Box 1 */}
-          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4">
+          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
             <div className="flex justify-between items-start">
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 1
@@ -52,7 +52,7 @@ const Why = () => {
           </div>
 
           {/* Box 2 */}
-          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4">
+          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
             <div className="flex justify-between items-start">
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 2
@@ -65,7 +65,7 @@ const Why = () => {
           </div>
 
           {/* Box 3 */}
-          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4">
+          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
             <div className="flex justify-between items-start">
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 3
@@ -78,7 +78,7 @@ const Why = () => {
           </div>
 
           {/* Box 4 */}
-          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4">
+          <div className="flex flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
             <div className="flex justify-between items-start">
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 4

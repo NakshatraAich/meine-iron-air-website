@@ -42,21 +42,21 @@ const Hero = () => {
     >
       <div className="flex h-full">
         {/* Slide 1 */}
-        <div className="relative min-w-full h-full flex items-center justify-center">
+                <div className="relative min-w-full h-full flex items-center justify-center">
           <img
-            src="/images/hero1.png"
+            src="/images/hero1.jpg"
             alt="hero1"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 z-1 bg-[#202020]/10"></div>
+          <div className="absolute inset-0 z-1 bg-[#202020]/30"></div>
           <div
             className="absolute z-2 text-left px-8 lg:px-20 left-0 flex flex-col items-start justify-center text-white
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
             <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Low-Cost, Multi-Day Energy Storage with Breakthrough{' '}
+              Long Duration Energy Storage for{' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
-                Iron Air Batteries
+                Decentralized Grid
               </span>
             </h1>
           </div>
@@ -65,8 +65,8 @@ const Hero = () => {
         {/* Slide 2 */}
         <div className="relative min-w-full h-full flex items-center justify-center">
           <img
-            src="/images/hero3.jpg"
-            alt="hero3"
+            src="/images/hero2.webp"
+            alt="hero2"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 z-1 bg-gradient-to-br from-transparent to-[#202020]/90"></div>
@@ -84,25 +84,26 @@ const Hero = () => {
         </div>
 
         {/* Slide 3 */}
-        <div className="relative min-w-full h-full flex items-center justify-center">
+                <div className="relative min-w-full h-full flex items-center justify-center">
           <img
-            src="/images/hero2.jpg"
-            alt="hero2"
+            src="/images/hero3.jpeg"
+            alt="hero3"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 z-1 bg-[#202020]/30"></div>
+          <div className="absolute inset-0 z-1 bg-[#202020]/40"></div>
           <div
             className="absolute z-2 text-left px-8 lg:px-20 left-0 flex flex-col items-start justify-center text-white
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
             <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Long Duration Energy Storage for{' '}
+              Low-Cost, Multi-Day Energy Storage with Breakthrough{' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
-                Decentralized Grid
+                Iron Air Batteries
               </span>
             </h1>
           </div>
         </div>
+        
       </div>
 
       {/* Progress Dots */}

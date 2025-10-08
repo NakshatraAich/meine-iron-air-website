@@ -72,7 +72,6 @@ const Why = () => {
 
             </div>
         </div>
-
     </section>
   )
 }
