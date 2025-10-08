@@ -24,36 +24,36 @@ export function News() {
     }, [emblaApi, onSelect])
 
     const newsList = [
-      {
-       image: '/news/N12.jpeg',
-       content: 'Recognized among top 50 emerging deeptech startups by NASSCOM (Emerge 50)',
-       link: 'https://www.linkedin.com/posts/nasscomdeeptech_emerge50awards2025-ugcPost-7359239202267389953-xeUJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzohttps://www.linkedin.com/posts/meineelectric_meineelectric-movefastbuildthings-emerge50-activity-7360613610248617984-w5bb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-      },
-      // {
+  {
+    image: '/news/N12.jpeg',
+    content: 'Recognized among the top 50 emerging deeptech startups by NASSCOM Emerge 50.',
+    link: 'https://www.linkedin.com/posts/nasscomdeeptech_emerge50awards2025-ugcPost-7359239202267389953-xeUJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzohttps://www.linkedin.com/posts/meineelectric_meineelectric-movefastbuildthings-emerge50-activity-7360613610248617984-w5bb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+  },
+  {
+    image: '/news/N11.webp',
+    content: 'Felicitated by Hon’ble Minister Shri Piyush Goyal at the Startup Mahakumbh event.',
+    link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meinelectric-movefastbuildthings-deeptech-activity-7314505968090800129-HQY7/?rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+  },
+  {
+    image: '/news/N16.jpeg',
+    content: 'Cell chemistry surpasses global standards for metal air performance.',
+    link: 'https://www.linkedin.com/feed/update/urn:li:activity:7338944102022959106/'
+  },
+  {
+    image: '/news/N13.jpeg',
+    content: 'Signed a strategic Memorandum of Understanding with Chematico Technologies to accelerate innovation.',
+    link: 'https://www.linkedin.com/posts/meineelectric_innovation-impact-commercial-activity-7354496848117583872-oY_X/'
+  },
+  {
+    image: '/news/N15.jpeg',
+    content: 'Selected for the prestigious NIDHI PRAYAS grant to support scaling breakthrough technology solutions.',
+    link: 'https://www.linkedin.com/posts/sp-tbi_delighted-to-extend-nidhi-prayas-grant-in-aid-activity-7343254317602078722-Pbj-/'
+  },
+            // {
       //  image: '/news/N14.jpeg',
       //  content: 'Showcased tech at TATWA summit in New Delhi on the occasion of the World Environment Day organized by Department of Science & Technology',
       //  link: ' https://www.linkedin.com/posts/meineelectric_meinelectric-energytransition-cleanenergy-activity-7340318422183874560-zvDd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADVLxlcBv-YgidtwKXSHjFebL_hgw1Px-7A. '
       // },
-      {
-        image: '/news/N11.webp',
-        content: 'Felicitated by Hon\'ble Minister of Commerce & Industry Shri Piyush Goyal at Startup Mahakumbh.',
-        link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_meinelectric-movefastbuildthings-deeptech-activity-7314505968090800129-HQY7/?rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-      },
-      {
-        image: '/news/N16.jpeg',
-        content: 'Cathode chemistry matches upto global standards',
-        link: 'https://www.linkedin.com/feed/update/urn:li:activity:7338944102022959106/'
-      },
-      {
-       image: '/news/N13.jpeg',
-       content: 'Signed a strategic Memorandum of Understanding with Chematico Technologies to accelerate innovation and commercialization.',
-       link: 'https://www.linkedin.com/posts/meineelectric_innovation-impact-commercial-activity-7354496848117583872-oY_X/'
-      },
-      {
-       image: '/news/N15.jpeg',
-       content: 'Selected for the prestigious NIDHI PRAYAS grant to support development and scaling of breakthrough technology solutions',
-       link: 'https://www.linkedin.com/posts/sp-tbi_delighted-to-extend-nidhi-prayas-grant-in-aid-activity-7343254317602078722-Pbj-/'
-      },
       //  {
       //    image: '/news/N1.webp',
       //    content: 'MEINE Electric Wins Student Startup of the Year 2024 at Micelio Mobility Awards.',
