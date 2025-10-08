@@ -86,7 +86,7 @@ const Hero = () => {
         {/* Slide 3 */}
                 <div className="relative min-w-full h-full flex items-center justify-center">
           <img
-            src="/images/hero3.jpeg"
+            src="/images/hero3.jpg"
             alt="hero3"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
