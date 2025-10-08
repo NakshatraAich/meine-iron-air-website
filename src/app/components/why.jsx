@@ -36,7 +36,7 @@ const Why = () => {
         </div>
 
         {/* ✅ Responsive Grid of Feature Boxes */}
-        <div className="z-2 grid grid-cols-1 sm:grid-cols-4 gap-6 w-full auto-rows-fr px-10">
+        <div className="z-2 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 gap-6 w-full auto-rows-fr xs:px-0 px-10">
           
           {/* Box 1 */}
           <div className="flex aspect-square flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
