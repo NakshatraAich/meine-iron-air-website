@@ -112,7 +112,7 @@ export function News() {
             <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
                 <div>
                 <h2 className="text-3xl text-[#202020] md:text-4xl font-bold">
-                    Latest from Meine Electric
+                    Latest From Meine Electric
                 </h2>
                 </div>
             </div>
@@ -135,7 +135,7 @@ export function News() {
                             src={news.image}
                             alt={news.content}
                             fill
-                            className="object-cover origin-top"
+                            className="object-cover origin-left"
                         />
                         </div>
                     )}

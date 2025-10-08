@@ -16,7 +16,7 @@ const Hero = () => {
     if (!emblaApi) return
     const interval = setInterval(() => {
       emblaApi.scrollNext()
-    }, 5000)
+    }, 12000)
     return () => clearInterval(interval)
   }, [emblaApi])
 
@@ -42,7 +42,7 @@ const Hero = () => {
     >
       <div className="flex h-full">
         {/* Slide 1 */}
-                <div className="relative min-w-full h-full flex items-center justify-center">
+        <div className="relative min-w-full h-full flex items-center justify-center">
           <img
             src="/images/hero1.jpg"
             alt="hero1"
@@ -54,9 +54,9 @@ const Hero = () => {
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
             <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Long Duration Energy Storage for{' '}
+              Low-Cost, Multi-Day <br/>Energy Storage  <br/>With {' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
-                Decentralized Grid
+                Iron Air Batteries
               </span>
             </h1>
           </div>
@@ -74,17 +74,17 @@ const Hero = () => {
             className="absolute z-2 text-left px-8 lg:px-20 left-0 flex flex-col items-start justify-center text-white
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
-            <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Enabling a future of{' '}
+           <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-4xl break-words whitespace-normal">
+              Long Duration Energy Storage for{' '} <br/>a{' '}
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
-                Limitless Renewable Future
+                 Decentralized Grid
               </span>
-            </h1>
+            </h1> 
           </div>
         </div>
 
         {/* Slide 3 */}
-                <div className="relative min-w-full h-full flex items-center justify-center">
+        <div className="relative min-w-full h-full flex items-center justify-center">
           <img
             src="/images/hero3.jpg"
             alt="hero3"
@@ -96,9 +96,9 @@ const Hero = () => {
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
             <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Low-Cost, Multi-Day Energy Storage with Breakthrough{' '}
+              Enabling a future of{' '} <br/>
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
-                Iron Air Batteries
+                Limitless Renewable Energy
               </span>
             </h1>
           </div>
@@ -106,7 +106,7 @@ const Hero = () => {
         
       </div>
 
-      {/* Progress Dots */}
+      {/* Progress Dots
       <div className="absolute pl-8 lg:pl-20 top-30 left-0 flex gap-3 z-20">
         {[0, 1, 2].map((i) => (
           <button
@@ -117,7 +117,7 @@ const Hero = () => {
             }`}
           />
         ))}
-      </div>
+      </div> */}
     </section>
   )
 }
