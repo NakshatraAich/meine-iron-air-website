@@ -64,7 +64,7 @@ export default function Table() {
                     className="py-1 font-semibold text-white border-l border-[#fff7af]"
                   >
                     <div
-                      className={`mx-auto flex items-center justify-center rounded-full font-mono ${
+                      className={`mx-auto flex items-center justify-center rounded-full ${
                         idx === 0
                           ? "w-20 h-20 bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 text-xl"
                           : "w-16 h-16 bg-gradient-to-br from-stone-800/30 to-stone-800/60 backdrop-blur text-lg"
