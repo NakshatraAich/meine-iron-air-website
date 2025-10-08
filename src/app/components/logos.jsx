@@ -32,12 +32,12 @@ const Logos = () => {
         {logos.map((logo, index) => (
           <div
             key={index}
-            className="flex items-center justify-center aspect-square rounded-xl p-4"
+            className="flex items-center justify-center aspect-square rounded-xl p-2 sm:p-4"
           >
             <img
               src={logo.src}
               alt={logo.alt}
-              className="max-w-[70%] max-h-[70%] object-contain grayscale hover:grayscale-0 transition duration-300 ease-in-out"
+              className="max-w-full max-h-full sm:max-w-[70%] sm:max-h-[70%] object-contain grayscale hover:grayscale-0 transition duration-300 ease-in-out"
             />
           </div>
         ))}
