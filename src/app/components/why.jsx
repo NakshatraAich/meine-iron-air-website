@@ -25,7 +25,7 @@ const Why = () => {
       <div className="relative w-full lg:w-1/2 flex flex-col justify-center gap-12">
         
         {/* Image */}
-        <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden">
+        <div className="relative w-full aspect-square sm:aspect-[16/9] rounded-2xl overflow-hidden">
           <Image
             src="/images/skid.png"
             alt="Iron-air cycle"
@@ -36,7 +36,7 @@ const Why = () => {
         </div>
 
         {/* ✅ Responsive Grid of Feature Boxes */}
-        <div className="z-2 grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-4 gap-6 w-full auto-rows-fr">
+        <div className="z-2 grid grid-cols-1 sm:grid-cols-4 gap-6 w-full auto-rows-fr px-10">
           
           {/* Box 1 */}
           <div className="flex aspect-square flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
@@ -78,7 +78,7 @@ const Why = () => {
           </div>
 
           {/* Box 4 */}
-          <div className="flex  aspect-square flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
+          <div className="flex aspect-square flex-col justify-between w-full rounded-lg bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 shadow-lg p-4 gap-4">
             <div className="flex justify-between items-start">
               <div className="text-sm font-bold text-[#B4D511] bg-white rounded-full w-6 h-6 flex items-center justify-center">
                 4
