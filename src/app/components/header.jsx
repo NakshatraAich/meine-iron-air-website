@@ -16,13 +16,15 @@ const Nav = () => {
     <header className="font-mono fixed top-0 left-0 w-full bg-[#202020]/85 backdrop-blur-lg text-white flex items-center justify-start lg:justify-between px-8 lg:px-20 py-4 z-50">
       {/* Logo */}
       <div className="flex items-center gap-2 cursor-pointer">
-        <Image
-          src="./logos/logo.svg"
-          alt="Logo"
-          width={210}
-          height={100}
-          className='w-48 sm:w-56 h-auto'
-        />
+        <div className="flex items-center gap-2 cursor-pointer w-48 sm:w-56 h-auto">
+          <Image
+            src="/logos/logo.svg"
+            alt="Logo"
+            width={210}
+            height={100}
+            className="w-full h-auto"
+          />
+        </div>
       </div>
 
       {/* Nav Buttons */}
