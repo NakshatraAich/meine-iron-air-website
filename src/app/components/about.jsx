@@ -23,7 +23,7 @@ const Why = () => {
         </div>
 
         <div className="relative w-full lg:w-1/2 flex flex-col justify-center gap-12">
-            <div className="grid grid-rows-1 lg:grid-cols-3 lg:grid-rows-2 gap-2 w-full rounded-2xl overflow-hidden">
+            <div className="grid grid-rows-1 lg:grid-cols-3 lg:grid-rows-2 gap-4 w-full rounded-2xl overflow-hidden">
                 
                 {/* Large image (top-left, 2 cols) */}
                 <div className="relative lg:col-span-2 aspect-[4/3] rounded-lg overflow-hidden">
