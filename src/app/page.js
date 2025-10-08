@@ -7,6 +7,7 @@ import Table from "./components/table";
 import About from "./components/about";
 import { News } from "./components/news";
 import Footer from "./components/footer";
+import Logos from "./components/logos";
 
 export default function Home() {
   
@@ -20,6 +21,7 @@ export default function Home() {
         <Table />
       </div>
       <About />
+      <Logos />
       <News />
       <Footer />
     </div>
