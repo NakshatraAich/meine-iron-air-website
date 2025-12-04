@@ -1,6 +1,6 @@
 import React from 'react'
-import Nav from "../components/header"
-import Footer from "../components/footer";
+import Nav from "../app/components/header"
+import Footer from "../app/components/footer";
 
 const BlogPane = ({ image, title, content, link }) => {
   const preview = content.length > 150 ? content.slice(0, 150) + "..." : content;
