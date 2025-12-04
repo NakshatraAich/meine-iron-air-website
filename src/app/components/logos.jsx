@@ -5,7 +5,6 @@ const Logos = () => {
     { src: '/logos/antler.svg', alt: 'Antler' },
     { src: '/logos/rebalance.png', alt: 'Rebalance' },
     { src: '/logos/grad.png', alt: 'Grad' },
-    { src: '/logos/inno.png', alt: 'Innosphere' },
     { src: '/logos/vc.png', alt: 'Venture Catalysts' },
     { src: '/logos/anna.svg', alt: 'Anna University' },
     { src: '/logos/bits.svg', alt: 'BITS' },
@@ -17,6 +16,8 @@ const Logos = () => {
     { src: '/logos/technoserve.png', alt: 'Technoserve' },
     { src: '/logos/climate.png', alt: 'Climate' },
     { src: '/logos/nidhi.png', alt: 'Nidhi Prayas' },
+    { src: '/logos/shell.png', alt: 'Shell E4'},
+    { src: '/logos/venture.png', alt: 'Venture Center'}
   ]
 
   return (
