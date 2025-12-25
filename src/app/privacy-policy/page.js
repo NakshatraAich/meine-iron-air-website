@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
     <div className="bg-[#FFFDEA] min-h-screen text-[#626262]">
       <Nav />
 
-      <main className="text-[#202020] px-8 lg:px-60 py-10 sm:py-30 gap-12 font-sans">
+      <main className="text-[#202020] px-8 lg:px-60 py-20 sm:py-30 gap-12 font-sans">
         <h1 className="text-4xl text-[#202020] font-bold mb-4">Privacy Policy</h1>
         <div className=''>
             This privacy policy <span className='font-bold'>(“Privacy Policy”)</span> governs the manner in which MEINE Electric
