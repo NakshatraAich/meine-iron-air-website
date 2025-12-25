@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Mail, MapPin } from "lucide-react"
+import Link from 'next/link'
 
 const contactItems = [
   {
@@ -107,10 +108,28 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 flex flex-col items-center justify-between space-y-4 border-t border-stone-700/50 pt-8 md:flex-row md:space-y-0">
+        <div className="mt-16 flex flex-col gap-8 items-start justify-between space-y-4 border-t  border-stone-700/50 pt-8 md:flex-col md:space-y-0">
           <p className="text-sm text-stone-400 text-center md:text-left">
             © 2025 Meine Electric. All rights reserved.
           </p>
+
+          <div className="text-stone-400 text-xs py-4 leading-relaxed border-t-1 border-stone-700/50">
+            <p className="font-semibold mb-1 text-sm">
+              Attention Investors &amp; Disclaimer
+            </p>
+            <p className="opacity-90">
+              MEINE ELECTRIC AUTOMOTIVES PRIVATE LIMITED | 
+              CIN: U34100TN2022PTC184043 | 
+              Compliance Officer: Stuti Kakkar | 
+              Tel No.: +91 95603 36933 | 
+              Email ID: stuti@meineelectric.com | 
+              Registered Address:  1st Floor, 44, 03rd Street, Kamaraj Nagar, Korattur, Chennai-600080, Korattur, Ambattur, Tiruvallur- 600050, Tamil Nadu, India | 
+              For any complaints, email at operations@meineelectric.com.
+            </p>
+            <div className='pt-2'>
+              <Link href='/privacy-policy' className='hover:text-white uppercase'>Privacy Policy</Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

@@ -50,7 +50,7 @@ const Page = () => {
         image: "/images/hero1.jpg",
         title: "Future-Proof Engineering",
         content:
-        "MEINE Electric is engineering tomorrow’s power solutions today. Built around modular design, upgradable architecture, and real-time monitoring, our systems adapt to future energy standards with minimal downtime. Combining reliability with foresight, we empower industries to stay competitive in an era where innovation and sustainability define success.",
+        "MEINE Electric is engineering tomorrow's power solutions today. Built around modular design, upgradable architecture, and real-time monitoring, our systems adapt to future energy standards with minimal downtime. Combining reliability with foresight, we empower industries to stay competitive in an era where innovation and sustainability define success.",
         link: "/blog/future-proof",
     },
     ]
