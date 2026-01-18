@@ -54,11 +54,11 @@ export default function Table() {
                   scope="row"
                   className="p-2 py-12 text-lg font-bold text-center whitespace-nowrap"
                 >
-                  LCOS ($/kWh)
+                  LCOS (₹/kWh)
                 </th>
 
                 {/* LCOS values */}
-                {["0.08", "0.09", "0.15", "0.19", "0.22", "0.25"].map((val, idx) => (
+                {["5", "7", "7", "9", "13", "18"].map((val, idx) => (
                   <td
                     key={idx}
                     className="py-1 font-semibold text-white border-l border-[#fff7af]"
