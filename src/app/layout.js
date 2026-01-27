@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Meine Electric | Long Duration Energy Storage with Iron Air Batteries",
-  description: "Discover Meine Electric's iron-air battery solutions—engineered for the realities of renewable-heavy grids. Our core innovation enables fast charging in just 6-8 hours and long-duration discharge of 16-18+ hours, perfectly matching solar-dominant duty cycles. Built for utilities, industries, and communities, Meine Electric delivers low-cost, clean, and reliable energy storage for a scalable transition to renewable power.",
+  description: "Discover Meine Electric's iron-air battery solutions—engineered for the realities of renewable-heavy grids. Our core innovation enables fast charging in just 6-8 hours and long-duration discharge of 16-24 hours, perfectly matching solar-dominant duty cycles. Built for utilities, industries, and communities, Meine Electric delivers low-cost, clean, and reliable energy storage for a scalable transition to renewable power.",
   keywords: ["Meine Electric", "Iron-Air Battery", "Longterm Energy Storage"],
 };
 
