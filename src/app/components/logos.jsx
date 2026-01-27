@@ -2,12 +2,13 @@ import React from 'react'
 
 const Logos = () => {
   const logos = [
+    { src: '/logos/venture.png', alt: 'Venture Center'},
     { src: '/logos/antler.svg', alt: 'Antler' },
     { src: '/logos/rebalance.png', alt: 'Rebalance' },
     { src: '/logos/grad.png', alt: 'Grad' },
     { src: '/logos/vc.png', alt: 'Venture Catalysts' },
     { src: '/logos/anna.svg', alt: 'Anna University' },
-    { src: '/logos/bits.svg', alt: 'BITS' },
+    { src: '/logos/biocytih.png', alt: 'BITS BIOCYTIH' },
     { src: '/logos/sptbi.png', alt: 'SPTBI' },
     { src: '/logos/dst.svg', alt: 'DST' },
     { src: '/logos/aic.png', alt: 'AIC' },
@@ -17,7 +18,6 @@ const Logos = () => {
     { src: '/logos/climate.png', alt: 'Climate' },
     { src: '/logos/nidhi.png', alt: 'Nidhi Prayas' },
     { src: '/logos/shell.png', alt: 'Shell E4'},
-    { src: '/logos/venture.png', alt: 'Venture Center'}
   ]
 
   return (
