@@ -244,6 +244,44 @@ export function News() {
                 <ChevronRight className="h-6 w-6 text-gray-700" />
             </button>
             </div>
+
+            {/* Title */}
+            <div
+            className="mt-12"
+            >
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+                <h2 className="text-xl text-center w-full text-[#202020] md:text-xl font-bold">
+                    As Seen In
+                </h2>
+            </div>
+            </div>
+
+            {/* News Logos */}
+            <div className="flex lg:flex-row flex-col gap-8 justify-center items-center">
+                <a className="hover:scale-110 transition-all duration-150 ease-in-out" href="https://www.thehindubusinessline.com/companies/chennais-meine-electric-raises-750000-in-pre-seed-funding-to-build-its-iron-air-battery-systems/article70547022.ece" target="_blank" rel="noopener noreferrer">
+                    <img
+                    src="/logos/hindu.png"
+                    alt="Image 1"
+                    className="w-48 h-auto aspect-video object-contain"
+                    />
+                </a>
+
+                <a className="hover:scale-110 transition-all duration-150 ease-in-out" href="https://b2b.economictimes.indiatimes.com/news/entrepreneur/meine-electric-raises-750000-funding-led-by-antler-rebalance-venture-catalysts/127282062" target="_blank" rel="noopener noreferrer">
+                    <img
+                    src="/logos/economic.png"
+                    alt="Image 2"
+                    className="w-54 h-auto aspect-video object-contain"
+                    />
+                </a>
+
+                <a className="hover:scale-110 transition-all duration-150 ease-in-out" href="https://www.saurenergy.com/solar-energy-news/meine-electric-raises-67-cr-to-power-long-duration-iron-air-batteries-in-apac-11020959/" target="_blank" rel="noopener noreferrer">
+                    <img
+                    src="/logos/saur.png"
+                    alt="Image 3"
+                    className="w-42 h-auto aspect-video object-contain"
+                    />
+                </a>
+            </div>
         </div>
         </section>
     )
