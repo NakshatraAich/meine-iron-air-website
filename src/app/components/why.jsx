@@ -60,7 +60,7 @@ const Why = () => {
               <Zap className="w-15 h-15 xs:w-10 xs:h-10 text-white" />
             </div>
             <p className="text-xl xs:text-sm text-green-900 font-semibold leading-snug">
-              Stores electricity for seasonal use
+              Long duration energy storage
             </p>
           </div>
 

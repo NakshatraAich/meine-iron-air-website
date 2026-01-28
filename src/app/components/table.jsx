@@ -10,12 +10,79 @@ const IconPartial = () => <CircleCheck className="w-5 h-5 mx-auto text-[#AAAAAA]
 const IconNone = () => <div className="w-8 h-8 mx-auto" />
 
 export default function Table() {
+  const columns = [
+    "Iron Air<br/>Batteries",
+    "Pumped Hydro<br/>Storage",
+    "Lithium Ion<br/>Batteries",
+    "Lead Acid<br/>Batteries",
+    "Zinc Air<br/>Batteries",
+    "Redox Flow<br/>Batteries",
+  ]
+
+  const lcosValues = ["5", "7", "7", "9", "13", "18"]
+
+  const readiness = [
+    "Early Commercial",
+    "Commercial",
+    "Commercial",
+    "Commercial",
+    "Emerging",
+    "Early Commercial",
+  ]
+
+  const features = [
+    {
+      label: "Intraday Balancing",
+      icons: [
+        <IconFull />,    // Iron Air
+        <IconFull />,    // Hydro
+        <IconFull />,    // Lithium
+        <IconPartial />,// Lead
+        <IconFull />,    // Zinc
+        <IconFull />,    // Redox
+      ],
+    },
+    {
+      label: "Multiday Balancing",
+      icons: [
+        <IconFull />,
+        <IconFull />,
+        <IconPartial />,
+        <IconNone />,
+        <IconPartial />,
+        <IconFull />,
+      ],
+    },
+    {
+      label: "Grid Congestion",
+      icons: [
+        <IconFull />,
+        <IconPartial />,
+        <IconPartial />,
+        <IconNone />,
+        <IconPartial />,
+        <IconFull />,
+      ],
+    },
+    {
+      label: "Extreme Weather Events",
+      icons: [
+        <IconFull />,
+        <IconPartial />,
+        <IconNone />,
+        <IconNone />,
+        <IconNone />,
+        <IconNone />,
+      ],
+    },
+  ]
+
   return (
     <section className="font-sans section-spacing container-padding pt-10 sm:pt-20 pb-20 lg:px-20 px-0 mx-8">
       <motion.div className="w-full flex flex-col items-center text-center">
         {/* Heading */}
         <div className="mb-12 flex flex-col gap-2 items-center">
-          <h2 className="text-4xl text-center text-[#202020] md:text-4xl font-bold max-w-md">
+          <h2 className="text-4xl text-center text-[#202020] font-bold max-w-md">
             <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
               Technology
             </span>{" "}
@@ -33,19 +100,12 @@ export default function Table() {
             <thead>
               <tr>
                 <th className="px-3 py-2 text-left text-lg font-bold"></th>
-                {[
-                  "Redox Flow<br/>Batteries",
-                  "Zinc Air<br/>Batteries",
-                  "Lead Acid<br/>Batteries",
-                  "Lithium Ion<br/>Batteries",
-                  "Pumped Hydro<br/>Storage",
-                  "Iron Air<br/>Batteries",
-                ].map((header, idx) => (
+                {columns.map((header, idx) => (
                   <th
                     key={idx}
                     scope="col"
                     className={`px-3 py-2 pb-5 border-l border-[#fff7af] ${
-                      idx === 5 ? "text-xl font-bold" : "text-sm font-medium"
+                      idx === 0 ? "text-xl font-bold" : "text-sm font-medium"
                     } text-[#222222]`}
                     dangerouslySetInnerHTML={{ __html: header }}
                   />
@@ -62,15 +122,14 @@ export default function Table() {
                 >
                   LCOS (Rs/kWh)
                 </th>
-
-                {["18", "13", "9", "7", "7", "5"].map((val, idx) => (
+                {lcosValues.map((val, idx) => (
                   <td
                     key={idx}
                     className="py-1 font-semibold text-white border-l border-[#fff7af]"
                   >
                     <div
                       className={`mx-auto flex items-center justify-center rounded-full ${
-                        idx === 5
+                        idx === 0
                           ? "w-20 h-20 bg-gradient-to-br from-[#B5D411]/90 via-[#B5D411]/80 to-[#B5D411]/40 text-xl"
                           : "w-16 h-16 bg-gradient-to-br from-stone-800/30 to-stone-800/60 backdrop-blur text-lg"
                       }`}
@@ -81,77 +140,23 @@ export default function Table() {
                 ))}
               </tr>
 
-              {/* Zero Row */}
+              {/* Readiness Row */}
               <tr>
                 <th scope="row" className="py-4 text-center font-medium whitespace-nowrap">
-                  Commercial Grid<br/>Readiness Level
+                  Commercial Grid<br />Readiness Level
                 </th>
-                <td className="border-l border-[#fff7af] text-center text-sm font-medium">Early Commercial</td>
-                <td className="border-l border-[#fff7af] text-center text-sm font-medium">Emerging</td>
-                <td className="border-l border-[#fff7af] text-center text-sm font-medium">Commercial</td>
-                <td className="border-l border-[#fff7af] text-center text-sm font-medium">Commercial</td>
-                <td className="border-l border-[#fff7af] text-center text-sm font-medium">Commercial</td>
-                <td className="border-l border-[#fff7af] text-center text-sm font-medium">Early Commercial</td>
+                {readiness.map((val, idx) => (
+                  <td
+                    key={idx}
+                    className="border-l border-[#fff7af] text-center text-sm font-medium"
+                  >
+                    {val}
+                  </td>
+                ))}
               </tr>
 
               {/* Feature Rows */}
-              {[
-                {
-                  label: "Intraday Balancing",
-                  icons: [
-                    <IconFull />, // Redox
-                    <IconFull />, // Zinc
-                    <IconPartial />, // Lead
-                    <IconFull />, // Lithium
-                    <IconFull />, // Hydro
-                    <IconFull />,    // Iron Air
-                  ],
-                },
-                {
-                  label: "Multiday Balancing",
-                  icons: [
-                    <IconPartial />,
-                    <IconPartial />,
-                    <IconNone />,
-                    <IconPartial />,
-                    <IconPartial />,
-                    <IconFull />,
-                  ],
-                },
-                {
-                  label: "Grid Congestion",
-                  icons: [
-                    <IconFull />,
-                    <IconPartial />,
-                    <IconNone />,
-                    <IconPartial />,
-                    <IconPartial />,
-                    <IconFull />,
-                  ],
-                },
-                {
-                  label: "Seasonal Balancing",
-                  icons: [
-                    <IconNone />,
-                    <IconNone />,
-                    <IconNone />,
-                    <IconNone />,
-                    <IconFull />,
-                    <IconFull />,
-                  ],
-                },
-                {
-                  label: "Extreme Weather Events",
-                  icons: [
-                    <IconNone />,
-                    <IconNone />,
-                    <IconNone />,
-                    <IconNone />,
-                    <IconPartial />,
-                    <IconFull />,
-                  ],
-                },
-              ].map((row, i) => (
+              {features.map((row, i) => (
                 <tr key={i}>
                   <th
                     scope="row"

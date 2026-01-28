@@ -25,30 +25,9 @@ export function News() {
 
     const newsList = [
     {
-    type: 'iframe',
-    src: 'https://drive.google.com/file/d/1RQ5ThMzKZE5HGGdWQffS8py7G4U2JiHM/preview',
-    content: 'Delivered a deeptech startup address at National Startup Day in the presence of Hon\'ble PM Narendra Modi.',
-    link: 'https://linkedin.com/...'
-    },
-    {
-        image: '/news/N17.jpeg',
-        content: 'MEINE Electric presented an invited talk on iron-air batteries at IMBRS 2025.',
-        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-imbrs25-batteryresearch-activity-7407314931987013632-KgoL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-    },
-    {
-        image: '/news/N18.jpeg',
-        content: 'Selected as the Top 50 finalists in Tata Social Enterprise Challenge 13th Edition',
-        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-tsecsummit-cleanenergy-activity-7404474476199124993-tAOx/'
-    },
-    {
-        image: '/news/N19.jpeg',
-        content: 'Recognized among the Top 50 Innovators at CSR & Sustainability Conclave 2025, Bhubaneswar.',
-        link: 'https://www.linkedin.com/posts/meineelectric_ironair-ldes-energytransition-activity-7401508740216393728-OB16?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-    },
-    {
-        image: '/news/N20.jpeg',
-        content: 'MEINE Electric was selected as the Investor\'s Pick Startup at The Battery Show, 2025',
-        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-longdurationenergystorage-ironair-activity-7393964405656518656-NOHY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+        image: '/news/N26.jpeg',
+        content: 'Our Co-Founder/CEO delivered the deeptech startup address at National Startup Day in the presence of Hon\'ble PM Narendra Modi.',
+        link: 'https://drive.google.com/file/d/1RQ5ThMzKZE5HGGdWQffS8py7G4U2JiHM/preview'
     },
     {
         image: '/news/N21.jpeg',
@@ -56,31 +35,9 @@ export function News() {
         link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-bakerhughes-energyideas-activity-7396854079467155457-sXj7?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
     },
     {
-        image: '/news/N22.jpeg',
-        content: 'Invited to the BSA Crescent Institute of Science and Technology for a keynote talk on Future of Energy Storage',
-        link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_crescentinstitute-meineelectric-energystorage-activity-7396501360449490944-vC-e?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-    },
-    {
-        image: '/news/N23.jpeg',
-        content: 'MEINE Electric joined the panel on LDES at The Battery Show 2025.',
-        link: 'https://www.linkedin.com/posts/stuti-kakkar_ldes-cost-reliability-activity-7394277307319754752-6wmp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-    },
-    {
-        image: '/news/N24.jpeg',
-        content: 'Winners of the First Ever Thomas Bata Future Vision Award by Schulich School of Business',
-        link: 'https://www.linkedin.com/posts/meineelectric_togethermission-thomasbatafuturevisionaward-activity-7389209977246248960-m4YH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-    },
-    {
-        image: '/news/N25.jpeg',
-        content: 'MEINE Electric selected for IRENA\'s third global cohort, the only Indian startup honored this year',
-        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-ldes-cleanenergy-activity-7384463662490587136-qrZJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
-    },
-
-
-    {
-        image: '/news/N12.jpeg',
-        content: 'Recognized among the top 50 emerging deeptech startups by NASSCOM Emerge 50.',
-        link: 'https://www.linkedin.com/posts/nasscomdeeptech_emerge50awards2025-ugcPost-7359239202267389953-xeUJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzohttps://www.linkedin.com/posts/meineelectric_meineelectric-movefastbuildthings-emerge50-activity-7360613610248617984-w5bb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+        image: '/news/N17.jpeg',
+        content: 'MEINE Electric presented an invited talk on iron-air batteries at International Meeting of Battery Research Society 2025.',
+        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-imbrs25-batteryresearch-activity-7407314931987013632-KgoL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
     },
     {
         image: '/news/N11.webp',
@@ -93,14 +50,44 @@ export function News() {
         link: 'https://www.linkedin.com/feed/update/urn:li:activity:7338944102022959106/'
     },
     {
+        image: '/news/N25.jpeg',
+        content: 'MEINE Electric selected for IRENA\'s third global cohort, the only Indian startup honored this year',
+        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-ldes-cleanenergy-activity-7384463662490587136-qrZJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
+        image: '/news/N23.jpeg',
+        content: 'MEINE Electric joined the panel on LDES at The Battery Show 2025.',
+        link: 'https://www.linkedin.com/posts/stuti-kakkar_ldes-cost-reliability-activity-7394277307319754752-6wmp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
+        image: '/news/N24.jpeg',
+        content: 'Winners of the First Ever Thomas Bata Future Vision Award by Schulich School of Business',
+        link: 'https://www.linkedin.com/posts/meineelectric_togethermission-thomasbatafuturevisionaward-activity-7389209977246248960-m4YH?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
+        image: '/news/N19.jpeg',
+        content: 'Recognized among the Top 50 Innovators at CSR & Sustainability Conclave 2025, Bhubaneswar.',
+        link: 'https://www.linkedin.com/posts/meineelectric_ironair-ldes-energytransition-activity-7401508740216393728-OB16?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
+        image: '/news/N20.jpeg',
+        content: 'MEINE Electric was selected as the Investor\'s Pick Startup at The Battery Show, 2025',
+        link: 'https://www.linkedin.com/posts/meineelectric_meineelectric-longdurationenergystorage-ironair-activity-7393964405656518656-NOHY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
+        image: '/news/N22.jpeg',
+        content: 'Invited to the BSA Crescent Institute of Science and Technology for a keynote talk on Future of Energy Storage',
+        link: 'https://www.linkedin.com/posts/priyansh-mohan-2002_crescentinstitute-meineelectric-energystorage-activity-7396501360449490944-vC-e?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
+        image: '/news/N12.jpeg',
+        content: 'Recognized among the top 50 emerging deeptech startups by NASSCOM Emerge 50.',
+        link: 'https://www.linkedin.com/posts/nasscomdeeptech_emerge50awards2025-ugcPost-7359239202267389953-xeUJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzohttps://www.linkedin.com/posts/meineelectric_meineelectric-movefastbuildthings-emerge50-activity-7360613610248617984-w5bb?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaEQ-wBJydGZrDNbomXjUOokVzxbaCVyzo'
+    },
+    {
         image: '/news/N13.jpeg',
         content: 'Signed a strategic Memorandum of Understanding with Chematico Technologies to accelerate innovation.',
         link: 'https://www.linkedin.com/posts/meineelectric_innovation-impact-commercial-activity-7354496848117583872-oY_X/'
-    },
-    {
-        image: '/news/N15.jpeg',
-        content: 'Selected for the prestigious NIDHI PRAYAS grant to support scaling breakthrough technology solutions.',
-        link: 'https://www.linkedin.com/posts/sp-tbi_delighted-to-extend-nidhi-prayas-grant-in-aid-activity-7343254317602078722-Pbj-/'
     },
             // {
       //  image: '/news/N14.jpeg',
