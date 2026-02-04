@@ -18,7 +18,7 @@ const Why = () => {
             </p>
 
             <div className='font-semibold text-[#B5D411] border border-[#B5D411] rounded-xl p-2'>
-                Backed by DST Through NIDHI-SSP, Meine Electric Receives ₹50 Lakh Support
+                Backed by DST Through NIDHI-SSP
             </div>
 
             <div className='mt-8 font-semibold text-[#202020]'>
