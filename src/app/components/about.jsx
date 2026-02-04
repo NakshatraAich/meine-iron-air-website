@@ -16,7 +16,12 @@ const Why = () => {
             At Meine Electric, our passionate team of engineers, scientists, and visionaries is united by a shared purpose: to transform the way energy is generated, stored, and delivered. <br/>
             Together, we are shaping a future where clean power is reliable, accessible, and empowers communities and industries to thrive.
             </p>
-            <div className='mt-12 font-semibold text-[#202020]'>
+
+            <div className='font-semibold text-[#B5D411] border border-[#B5D411] rounded-xl p-2'>
+                Backed by DST Through NIDHI-SSP, Meine Electric Receives ₹50 Lakh Support
+            </div>
+
+            <div className='mt-8 font-semibold text-[#202020]'>
                 Contact Us At<br/>
                 <span className='text-2xl font-semibold text-[#B5D411]'>contact@meineelectric.com</span>
             </div>
