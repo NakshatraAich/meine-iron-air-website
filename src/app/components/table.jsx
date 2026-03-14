@@ -19,7 +19,7 @@ export default function Table() {
     "Redox Flow<br/>Batteries",
   ]
 
-  const lcosValues = ["5", "7", "7", "9", "13", "18"]
+  const lcosValues = ["3", "7", "5", "9", "13", "18"]
 
   const readiness = [
     "Early Commercial",
