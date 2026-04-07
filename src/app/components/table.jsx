@@ -115,7 +115,7 @@ export default function Table() {
 
             <tbody>
               {/* LCOS Row */}
-              <tr>
+              {/* <tr>
                 <th
                   scope="row"
                   className="p-2 py-12 text-lg font-bold text-center whitespace-nowrap"
@@ -138,7 +138,7 @@ export default function Table() {
                     </div>
                   </td>
                 ))}
-              </tr>
+              </tr> */}
 
               {/* Readiness Row */}
               <tr>
