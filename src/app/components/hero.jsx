@@ -54,7 +54,7 @@ const Hero = () => {
                        top-1/2 -translate-y-1/2 sm:bottom-36 sm:top-auto sm:translate-y-0"
           >
             <h1 className="text-5xl sm:text-5xl leading-tight font-bold drop-shadow-lg sm:max-w-3xl break-words whitespace-normal">
-              Low-Cost, Multi-Day <br/>Energy Storage With<br/>
+              Low-Cost, Daily Cycling <br/>Energy Storage With<br/>
               <span className="bg-gradient-to-r from-[#B5D411] via-[#B5D411] to-[#E9CF09] bg-clip-text text-transparent">
                 Iron Air Batteries
               </span>
